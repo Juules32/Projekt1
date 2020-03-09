@@ -1,21 +1,28 @@
+<!DOCTYPE html>
+
 <html>
     <head>
-        
+        <meta charset="UTF-8">
+        <meta name="title" content="Look-and-Say"
+        <meta name="description" content="Sammenligning af talrækker">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="John Doe">  
         <script src="Fibonacci.js"></script>
         <script src="LaS.js"></script>
-        <script src="nicklas.js"></script>
         <script src="rasmus.js"></script>
+        <script src="nicklas.js"></script>
 
-
+        
     </head>
     <body>
-        <button onclick="fib(100)">Fibonacci</button>
+        <button onclick="fib(10)">Fibonacci</button>
         <p id="fibonacci">Her kommer fibonacci-talrækken til at vises</p>
 
-        <button onclick="repeat(a,20)">Look-and-say sequence</button>
-        <p id="hej">Her kommer Look-and-say talrækken til at vises</p>
-        <button onclick="gentagLaS(33)">My</button>
-
+        
+        <input id="gentagelser" type="number" value="10">
+        <button onclick="gentagLaS('values')">Værdier af alle n look-and-say tal</button>
+        <button onclick="gentagLaS('length')">n's ciffermængder</button>
+        <p id="tal">wow</p>
+        <p id="numre">wooo</p>
     </body>
 </html>
-

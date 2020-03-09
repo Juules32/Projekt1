@@ -5,6 +5,7 @@ function look(n) {
 	}
 	return string
 }
+
 function par(number) {
 	var ParArr = [];
 	var Currentpar = ""
@@ -23,14 +24,6 @@ function par(number) {
 	return ParArr
 }
 
-
-var count = 0
-
-rec(1)
-
-
-
-
 function rec(n){
 	var number = look(n)
 	count++
@@ -39,3 +32,4 @@ function rec(n){
 }
 
 
+// <script src="nicklas.js"></script>
